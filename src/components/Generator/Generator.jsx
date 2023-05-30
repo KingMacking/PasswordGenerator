@@ -27,7 +27,7 @@ const Generator = ({setPassword, setIsCopied}) => {
         setIsCopied(false)
 
         if(!parameters.uppercase && !parameters.lowercase && !parameters.numbers && !parameters.symbols) {
-            return "Debes seleccionar una opcion como minimo"
+            return "You must select 1 option at least"
         }
         let charcodes = []
         if(parameters.lowercase)  charcodes = charcodes.concat(LOWER_CHARCODES)
