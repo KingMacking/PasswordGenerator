@@ -8,7 +8,7 @@
 </p>
 
 ## Password Generator
-Generador de contraseñas seguras con números y símbolos incluidos.
+Generador de contraseñas seguras con números y símbolos incluidos. <br>
 Hecha con React, Tailwind CSS y mucho amor 💜
 
 
