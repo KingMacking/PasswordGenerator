@@ -42,7 +42,7 @@ const Generator = ({setPassword, setIsCopied}) => {
             <Length passwordLength={passwordLength} setPasswordLength={setPasswordLength} />
             <Paramaters parameters={parameters} setParameters={setParameters} />
             <Strength length={passwordLength} parameters={parameters} />
-            <button className="p-3 text-xl font-semibold rounded-md bg-primary" onClick={() => setPassword(generatePassword(parameters, passwordLength))}>Generate</button>
+            <button className="p-3 text-xl font-semibold transition-all ease-in-out rounded-md bg-primary hover:scale-105 hover:drop-shadow" onClick={() => setPassword(generatePassword(parameters, passwordLength))}>Generate</button>
         </article>
     )
 }
